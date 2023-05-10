@@ -23,8 +23,7 @@
 .escola-imagem{
     width: 25%;
 }
-
-.escola{
+#escola{
     background-image: linear-gradient(#424e61, #16cff8);
     color: white;
     display: flex;
@@ -58,4 +57,24 @@ body{
 .estudantes-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none;
+    color: white;
 }
